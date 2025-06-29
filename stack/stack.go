@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func test() {
 	ss := &SliceStack{}
 	fmt.Println(ss)
 	err := ss.Pop()
